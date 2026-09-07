@@ -1,0 +1,5 @@
+Place your original font file here with this exact filename:
+Mahmoud-Final.ttf
+
+The website CSS already references:
+assets/fonts/Mahmoud-Final.ttf
