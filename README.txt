@@ -1,48 +1,28 @@
-MIZAN — GitHub Pages (Polished Edition)
-=========================================
+MIZAN GITHUB PAGES
+==================
 
-الملفات جاهزة للنشر على GitHub Pages.
+Expected public URLs after publishing this folder from a GitHub repository named "mizan":
 
-مهم جدًا — خط Mahmoud
-----------------------
-لأسباب الترخيص/التوزيع، ملف الخط غير مرفق داخل هذا ZIP.
-انسخ ملفك الأصلي:
-
-Mahmoud-Final.ttf
-
-إلى هذا المسار داخل المشروع:
-
-assets/fonts/Mahmoud-Final.ttf
-
-بعدها سيستخدم الموقع خط Mahmoud تلقائيًا في:
-- العربي
-- الإنجليزي
-- الأرقام
-- الأزرار
-- العناوين
-- صفحة سياسة الخصوصية
-
-هيكل المشروع:
---------------
-index.html
-privacy-policy/index.html
-assets/styles.css
-assets/mizan-logo.png
-assets/mizan-wordmark.png
-assets/fonts/Mahmoud-Final.ttf   <-- أضفه أنت
-
-النشر:
-------
-1) ارفع كل محتويات المجلد إلى Repository باسم mizan.
-2) GitHub > Settings > Pages
-3) Source: Deploy from a branch
-4) Branch: main
-5) Folder: / (root)
-
-الروابط:
---------
-Home:
+Home page:
 https://mahmoudgharib86.github.io/mizan/
 
 Privacy Policy:
 https://mahmoudgharib86.github.io/mizan/privacy-policy/
+
+Google OAuth Branding values:
+Application home page:
+https://mahmoudgharib86.github.io/mizan/
+
+Application privacy policy link:
+https://mahmoudgharib86.github.io/mizan/privacy-policy/
+
+Developer contact:
+acc.mahmoudgharib@gmail.com
+
+Suggested GitHub Pages setup:
+1. Create a public repository named: mizan
+2. Upload all files/folders from this package to the repository root.
+3. Repository Settings > Pages.
+4. Source: Deploy from a branch.
+5. Branch: main, folder: /(root).
+6. Save and wait for GitHub Pages to publish.
