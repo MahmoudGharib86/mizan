@@ -1,0 +1,1 @@
+Place your original Mahmoud-Final.ttf file in this folder and keep the filename exactly: Mahmoud-Final.ttf

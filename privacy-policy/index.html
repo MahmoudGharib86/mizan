@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B2236" />
   <meta name="description" content="سياسة الخصوصية لتطبيق ميزان Mizan" />
   <title>سياسة الخصوصية | ميزان</title>
   <link rel="icon" href="../assets/mizan-logo.png" />
@@ -11,96 +12,137 @@
 <body>
   <header class="topbar">
     <div class="shell nav">
-      <a class="brand" href="../">
-        <img src="../assets/mizan-logo.png" alt="شعار ميزان" />
-        <span>ميزان | Mizan</span>
+      <a class="brand" href="../" aria-label="العودة إلى ميزان">
+        <span class="brand-mark"><img src="../assets/mizan-logo.png" alt="" /></span>
+        <span class="brand-copy">
+          <strong class="brand-name">ميزان</strong>
+          <small>MIZAN · PERSONAL FINANCE</small>
+        </span>
       </a>
       <nav class="navlinks">
         <a href="../">الرئيسية</a>
-        <a href="mailto:acc.mahmoudgharib@gmail.com">تواصل</a>
+        <a class="nav-contact" href="mailto:acc.mahmoudgharib@gmail.com">تواصل</a>
       </nav>
     </div>
   </header>
 
-  <main class="section">
-    <div class="shell privacy">
-      <span class="badge">آخر تحديث: 7 سبتمبر 2026</span>
-      <h1 style="font-size:clamp(2rem,5vw,3.7rem)">سياسة الخصوصية</h1>
-      <p class="lead">توضح هذه السياسة كيفية تعامل تطبيق <strong>ميزان (Mizan)</strong> مع البيانات عند استخدام التطبيق وميزات تسجيل الدخول والنسخ الاحتياطي.</p>
+  <main class="privacy-main">
+    <div class="shell privacy-shell">
+      <aside class="privacy-aside">
+        <span class="policy-badge">سياسة الخصوصية</span>
+        <h1>خصوصيتك جزء من تصميم ميزان.</h1>
+        <p>هذه الصفحة توضح بصورة مباشرة كيف يتعامل ميزان مع بياناتك، وتسجيل Google، والنسخ الاحتياطي.</p>
+        <div class="policy-meta">
+          <span>آخر تحديث</span>
+          <strong>7 سبتمبر 2026</strong>
+        </div>
+        <a class="btn secondary compact" href="../">← العودة للرئيسية</a>
+      </aside>
 
-      <section>
-        <h2>1. نطاق التطبيق</h2>
-        <p>ميزان هو تطبيق لإدارة الأموال الشخصية، ويتيح للمستخدم تسجيل الحسابات والمعاملات والتصنيفات والعملات والمرفقات وغيرها من البيانات المالية الشخصية.</p>
-      </section>
+      <article class="privacy-content">
+        <div class="privacy-intro">
+          <span class="section-kicker">MIZAN PRIVACY</span>
+          <h2>سياسة الخصوصية</h2>
+          <p>
+            توضح هذه السياسة كيفية تعامل تطبيق <strong>ميزان (Mizan)</strong> مع البيانات عند استخدام التطبيق
+            وميزات تسجيل الدخول والنسخ الاحتياطي.
+          </p>
+        </div>
 
-      <section>
-        <h2>2. التخزين المحلي</h2>
-        <p>يعمل ميزان بأسلوب Local-first؛ أي أن البيانات المالية تُخزَّن على جهاز المستخدم بصورة افتراضية داخل مساحة التطبيق. لا يحتاج المستخدم إلى Google Drive لاستخدام الوظائف الأساسية للتطبيق.</p>
-      </section>
+        <section>
+          <span class="policy-no">01</span>
+          <div><h3>نطاق التطبيق</h3>
+          <p>ميزان هو تطبيق لإدارة الأموال الشخصية، ويتيح للمستخدم تسجيل الحسابات والمعاملات والتصنيفات والعملات والمرفقات وغيرها من البيانات المالية الشخصية.</p></div>
+        </section>
 
-      <section>
-        <h2>3. تسجيل الدخول باستخدام Google</h2>
-        <p>إذا اختار المستخدم تسجيل الدخول باستخدام Google، يستخدم ميزان خدمات Google OAuth للتحقق من هوية الحساب ومنح الصلاحيات التي يوافق عليها المستخدم. قد تتم معالجة معلومات الحساب الأساسية مثل الاسم والبريد الإلكتروني ومعرّف الحساب بواسطة Google وفق سياساتها.</p>
-      </section>
+        <section>
+          <span class="policy-no">02</span>
+          <div><h3>التخزين المحلي</h3>
+          <p>يعمل ميزان بأسلوب Local-first؛ أي أن البيانات المالية تُخزَّن على جهاز المستخدم بصورة افتراضية داخل مساحة التطبيق. لا يحتاج المستخدم إلى Google Drive لاستخدام الوظائف الأساسية للتطبيق.</p></div>
+        </section>
 
-      <section>
-        <h2>4. Google Drive والنسخ الاحتياطي</h2>
-        <p>ربط Google Drive اختياري. عند تفعيله، يطلب ميزان صلاحية <code>drive.file</code> لاستخدام ملفات Drive التي ينشئها أو يديرها التطبيق لأغراض النسخ الاحتياطي والاستعادة. لا يستخدم التطبيق هذه الصلاحية لتصفح كل محتويات Google Drive الخاصة بالمستخدم.</p>
-        <p>قد تتضمن النسخة الاحتياطية قاعدة بيانات ميزان والمرفقات التي اختار المستخدم حفظها داخل التطبيق.</p>
-      </section>
+        <section>
+          <span class="policy-no">03</span>
+          <div><h3>تسجيل الدخول باستخدام Google</h3>
+          <p>إذا اختار المستخدم تسجيل الدخول باستخدام Google، يستخدم ميزان خدمات Google OAuth للتحقق من هوية الحساب ومنح الصلاحيات التي يوافق عليها المستخدم. قد تتم معالجة معلومات الحساب الأساسية مثل الاسم والبريد الإلكتروني ومعرّف الحساب بواسطة Google وفق سياساتها.</p></div>
+        </section>
 
-      <section>
-        <h2>5. المرفقات</h2>
-        <p>عند إضافة مرفق إلى معاملة، يحتفظ ميزان بنسخة داخل مساحة التطبيق حتى لا يعتمد استمرار الوصول إليه على بقاء الملف الأصلي في موقعه السابق على الجهاز. ويمكن إدراج هذه المرفقات ضمن النسخ الاحتياطية.</p>
-      </section>
+        <section>
+          <span class="policy-no">04</span>
+          <div><h3>Google Drive والنسخ الاحتياطي</h3>
+          <p>ربط Google Drive اختياري. عند تفعيله، يطلب ميزان صلاحية <code>drive.file</code> لاستخدام ملفات Drive التي ينشئها أو يديرها التطبيق لأغراض النسخ الاحتياطي والاستعادة. لا يستخدم التطبيق هذه الصلاحية لتصفح كل محتويات Google Drive الخاصة بالمستخدم.</p>
+          <p>قد تتضمن النسخة الاحتياطية قاعدة بيانات ميزان والمرفقات التي اختار المستخدم حفظها داخل التطبيق.</p></div>
+        </section>
 
-      <section>
-        <h2>6. مشاركة البيانات وبيعها</h2>
-        <p>لا يبيع ميزان البيانات المالية الشخصية للمستخدمين ولا يستخدمها لأغراض إعلانية. قد تتم مشاركة البيانات فقط مع الخدمات الخارجية التي يختار المستخدم استخدامها، مثل Google لتسجيل الدخول أو Google Drive للنسخ الاحتياطي، وبالقدر اللازم لتقديم تلك الوظيفة.</p>
-      </section>
+        <section>
+          <span class="policy-no">05</span>
+          <div><h3>المرفقات</h3>
+          <p>عند إضافة مرفق إلى معاملة، يحتفظ ميزان بنسخة داخل مساحة التطبيق حتى لا يعتمد استمرار الوصول إليه على بقاء الملف الأصلي في موقعه السابق على الجهاز. ويمكن إدراج هذه المرفقات ضمن النسخ الاحتياطية.</p></div>
+        </section>
 
-      <section>
-        <h2>7. الحذف وإعادة التهيئة</h2>
-        <p>يمكن للمستخدم حذف المعاملات أو إعادة تهيئة البيانات من داخل التطبيق. إعادة التهيئة تهدف إلى حذف البيانات المالية المحلية الخاصة بميزان من الجهاز وفق الخيارات المتاحة في التطبيق. النسخ الاحتياطية السحابية القديمة قد تظل موجودة في Google Drive إلى أن يقوم المستخدم بحذفها أو استبدالها.</p>
-      </section>
+        <section>
+          <span class="policy-no">06</span>
+          <div><h3>مشاركة البيانات وبيعها</h3>
+          <p>لا يبيع ميزان البيانات المالية الشخصية للمستخدمين ولا يستخدمها لأغراض إعلانية. قد تتم مشاركة البيانات فقط مع الخدمات الخارجية التي يختار المستخدم استخدامها، مثل Google لتسجيل الدخول أو Google Drive للنسخ الاحتياطي، وبالقدر اللازم لتقديم تلك الوظيفة.</p></div>
+        </section>
 
-      <section>
-        <h2>8. الأمان</h2>
-        <p>يستخدم ميزان وسائل التخزين والحماية المتاحة في نظام التشغيل والخدمات المرتبطة به. ومع ذلك، لا توجد وسيلة تخزين أو نقل إلكتروني يمكن ضمان أمانها بنسبة 100%.</p>
-      </section>
+        <section>
+          <span class="policy-no">07</span>
+          <div><h3>الحذف وإعادة التهيئة</h3>
+          <p>يمكن للمستخدم حذف المعاملات أو إعادة تهيئة البيانات من داخل التطبيق. إعادة التهيئة تهدف إلى حذف البيانات المالية المحلية الخاصة بميزان من الجهاز وفق الخيارات المتاحة في التطبيق. النسخ الاحتياطية السحابية القديمة قد تظل موجودة في Google Drive إلى أن يقوم المستخدم بحذفها أو استبدالها.</p></div>
+        </section>
 
-      <section>
-        <h2>9. خدمات Google</h2>
-        <p>استخدام Google Sign-In وGoogle Drive يخضع كذلك لشروط وسياسات Google. يمكن للمستخدم إلغاء صلاحيات التطبيق من إعدادات حساب Google في أي وقت.</p>
-      </section>
+        <section>
+          <span class="policy-no">08</span>
+          <div><h3>الأمان</h3>
+          <p>يستخدم ميزان وسائل التخزين والحماية المتاحة في نظام التشغيل والخدمات المرتبطة به. ومع ذلك، لا توجد وسيلة تخزين أو نقل إلكتروني يمكن ضمان أمانها بنسبة 100%.</p></div>
+        </section>
 
-      <section>
-        <h2>10. الأطفال</h2>
-        <p>ميزان ليس مخصصًا لجمع بيانات الأطفال بصورة متعمدة. إذا تم اكتشاف جمع بيانات بشكل غير مقصود، يمكن التواصل لطلب حذفها.</p>
-      </section>
+        <section>
+          <span class="policy-no">09</span>
+          <div><h3>خدمات Google</h3>
+          <p>استخدام Google Sign-In وGoogle Drive يخضع كذلك لشروط وسياسات Google. يمكن للمستخدم إلغاء صلاحيات التطبيق من إعدادات حساب Google في أي وقت.</p></div>
+        </section>
 
-      <section>
-        <h2>11. التغييرات على السياسة</h2>
-        <p>قد يتم تحديث هذه السياسة عند إضافة ميزات جديدة أو تغيير طريقة معالجة البيانات. سيتم تحديث تاريخ المراجعة أعلى هذه الصفحة عند حدوث تغييرات جوهرية.</p>
-      </section>
+        <section>
+          <span class="policy-no">10</span>
+          <div><h3>الأطفال</h3>
+          <p>ميزان ليس مخصصًا لجمع بيانات الأطفال بصورة متعمدة. إذا تم اكتشاف جمع بيانات بشكل غير مقصود، يمكن التواصل لطلب حذفها.</p></div>
+        </section>
 
-      <section>
-        <h2>12. التواصل</h2>
-        <p>لأي استفسار متعلق بالخصوصية أو تطبيق ميزان:</p>
-        <p><a href="mailto:acc.mahmoudgharib@gmail.com">acc.mahmoudgharib@gmail.com</a></p>
-      </section>
+        <section>
+          <span class="policy-no">11</span>
+          <div><h3>التغييرات على السياسة</h3>
+          <p>قد يتم تحديث هذه السياسة عند إضافة ميزات جديدة أو تغيير طريقة معالجة البيانات. سيتم تحديث تاريخ المراجعة أعلى هذه الصفحة عند حدوث تغييرات جوهرية.</p></div>
+        </section>
 
-      <section lang="en" dir="ltr">
-        <h2>English summary</h2>
-        <p>Mizan is a local-first personal finance app. Financial data is stored on the user’s device by default. Google Sign-In and Google Drive backup are optional. When Drive backup is enabled, Mizan requests the <code>drive.file</code> scope to manage backup files created or used by the app. Mizan does not sell users’ personal financial data.</p>
-      </section>
+        <section>
+          <span class="policy-no">12</span>
+          <div><h3>التواصل</h3>
+          <p>لأي استفسار متعلق بالخصوصية أو تطبيق ميزان:</p>
+          <p><a href="mailto:acc.mahmoudgharib@gmail.com">acc.mahmoudgharib@gmail.com</a></p></div>
+        </section>
+
+        <section class="english-summary" lang="en" dir="ltr">
+          <span class="policy-no">EN</span>
+          <div><h3>English summary</h3>
+          <p>Mizan is a local-first personal finance app. Financial data is stored on the user’s device by default. Google Sign-In and Google Drive backup are optional. When Drive backup is enabled, Mizan requests the <code>drive.file</code> scope to manage backup files created or used by the app. Mizan does not sell users’ personal financial data.</p></div>
+        </section>
+      </article>
     </div>
   </main>
 
   <footer>
     <div class="shell footer-grid">
-      <div>© 2026 Mizan.</div>
-      <div><a href="../">العودة للرئيسية</a></div>
+      <a class="footer-brand" href="../">
+        <span class="mini-logo"><img src="../assets/mizan-logo.png" alt="" /></span>
+        <span><strong>ميزان</strong><small>Mizan Personal Finance</small></span>
+      </a>
+      <div class="footer-links">
+        <a href="../">الرئيسية</a>
+        <a href="mailto:acc.mahmoudgharib@gmail.com">الدعم والتواصل</a>
+      </div>
+      <div class="copyright">© 2026 Mizan.</div>
     </div>
   </footer>
 </body>
