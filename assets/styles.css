@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Mahmoud';
-  src: local('Mahmoud Final'), local('MahmoudFinal-Medium'),
-       url('./fonts/Mahmoud-Final.ttf') format('truetype');
+  font-family: 'MahmoudWeb';
+  src: url('./fonts/Mahmoud-Web-20260908.woff2') format('woff2'),
+       url('./fonts/Mahmoud-Web-20260908.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
   font-weight: 500;
@@ -39,11 +39,11 @@
 * { box-sizing: border-box; }
 html {
   scroll-behavior: smooth;
-  font-family: 'Mahmoud', sans-serif;
+  font-family: 'MahmoudWeb', sans-serif;
 }
 
 html, body, body *, button, input, textarea, select, option {
-  font-family: 'Mahmoud', sans-serif !important;
+  font-family: 'MahmoudWeb', sans-serif !important;
 }
 
 
@@ -53,7 +53,7 @@ body {
   background:
     radial-gradient(circle at 9% 6%, rgba(201,165,90,.12), transparent 23rem),
     linear-gradient(180deg, #fffdf9 0%, #fbf7ef 55%, #fffdf9 100%);
-  font-family: 'Mahmoud', sans-serif;
+  font-family: 'MahmoudWeb', sans-serif;
   font-weight: 500;
   font-synthesis: weight;
   line-height: 1.72;
@@ -430,7 +430,7 @@ h1, h2, h3, p { margin-top: 0; }
 
 .balance-number {
   margin-top: 21px;
-  font-family: 'Mahmoud', 'Segoe UI', sans-serif;
+  font-family: 'MahmoudWeb', 'Segoe UI', sans-serif;
   font-size: 2.68rem;
   font-weight: 900;
   direction: ltr;
@@ -1332,11 +1332,11 @@ h1, h2, h3, p { margin-top: 0; }
    while browsers may synthesize heavier weights for headings. */
 body, p, a, span, small, strong, h1, h2, h3, h4, h5, h6,
 button, input, textarea, select, option, label, li, dt, dd, th, td {
-  font-family: 'Mahmoud', sans-serif !important;
+  font-family: 'MahmoudWeb', sans-serif !important;
 }
 
 [dir='ltr'], .brand-copy span, .trust-row, .balance-number, .account-chip strong {
-  font-family: 'Mahmoud', sans-serif !important;
+  font-family: 'MahmoudWeb', sans-serif !important;
 }
 
 @media (max-width: 1050px) {

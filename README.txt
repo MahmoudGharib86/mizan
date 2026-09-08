@@ -1,35 +1,26 @@
-MIZAN GITHUB PAGES — SIGNATURE FINTECH EDITION
-==============================================
+MIZAN GITHUB PAGES — FONT FIXED EDITION
+========================================
 
-This package preserves the existing public paths used by Google OAuth:
+This package is ready to upload as-is.
+
+FONT FIX INCLUDED
+-----------------
+- The corrected Mahmoud web font is INCLUDED in assets/fonts/.
+- The site no longer uses local('Mahmoud Final').
+- The browser is forced to use the bundled web font, not a font installed on the visitor's PC.
+- WOFF2 is the primary format (small and browser-friendly), with TTF fallback.
+- The web font was reduced to Arabic/Latin/numbers/punctuation while preserving OpenType shaping tables.
+- Invalid/unneeded vertical metrics tables from the merged source were removed before web-font generation.
+- CSS links have a cache-busting version query.
+
+PUBLIC PATHS PRESERVED
+----------------------
 - Home: /
 - Privacy Policy: /privacy-policy/
 - Support email: acc.mahmoudgharib@gmail.com
 
-FONT — REQUIRED
----------------
-The CSS is configured specifically for the uploaded static font:
-Mahmoud Final Medium (weight 500)
-
-Before uploading to GitHub, place YOUR original font file at exactly:
-assets/fonts/Mahmoud-Final.ttf
-
-The font file itself is intentionally not included in this package.
-The website forces Mahmoud on Arabic, English, numbers, buttons, fields,
-headings, cards, labels and navigation elements.
-
-HERO IMAGE
-----------
-The visual hero image is included at:
-assets/mizan-hero-visual.png
-
-GOOGLE OAUTH / EXISTING LINKS
------------------------------
-No OAuth link, privacy-policy path, repository path, or support email was
-changed by this redesign.
-
-UPLOAD
-------
-Upload/replace the files in the existing GitHub repository while preserving
-this folder structure. GitHub Pages can continue deploying from main / root.
-Then hard refresh the published website with Ctrl+F5.
+UPLOAD TO GITHUB
+----------------
+Replace the files in the repository root with the contents of this folder, preserving the folder structure.
+Do NOT omit assets/fonts/.
+After GitHub Pages finishes deploying, open the site and press Ctrl+Shift+R (or Ctrl+F5) once.
