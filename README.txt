@@ -1,26 +1,20 @@
-MIZAN GITHUB PAGES — ORIGINAL DESIGN + MAHMOUD TYPOGRAPHY
-==========================================================
+MIZAN GITHUB PAGES — PROFESSIONAL DESIGN EDITION
+====================================================
 
-This version preserves the original Mizan website layout and identity.
-Changes are intentionally limited to typography, spacing, responsiveness,
-and subtle visual polish.
+This package preserves the existing public paths used by Google OAuth:
+- Home: /
+- Privacy Policy: /privacy-policy/
+- Support email: acc.mahmoudgharib@gmail.com
 
-IMPORTANT — FONT
-----------------
-Before uploading to GitHub, copy your original font file:
-Mahmoud-Final.ttf
-
-into:
+IMPORTANT FONT STEP
+-------------------
+Place your own licensed font file here before uploading:
 assets/fonts/Mahmoud-Final.ttf
 
-The font file is not included in this package.
+The website CSS already references that exact path.
+No external CSS, JS, font CDN, analytics or tracking library is used.
 
-Expected public URLs:
-Home page:
-https://mahmoudgharib86.github.io/mizan/
-
-Privacy Policy:
-https://mahmoudgharib86.github.io/mizan/privacy-policy/
-
-GitHub Pages:
-Settings > Pages > Deploy from a branch > main > /(root)
+UPLOAD
+------
+Upload/replace these files in the existing GitHub repository while preserving
+the same folder structure. GitHub Pages can continue deploying from main / root.

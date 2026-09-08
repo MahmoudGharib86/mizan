@@ -3,84 +3,298 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ميزان — تطبيق لإدارة الأموال الشخصية، الحسابات، المعاملات، التقارير والنسخ الاحتياطي." />
+  <meta name="description" content="ميزان — تجربة عربية أنيقة لإدارة الأموال الشخصية، الحسابات، المعاملات، التقارير والنسخ الاحتياطي." />
+  <meta name="theme-color" content="#081b2c" />
   <title>ميزان | Mizan</title>
   <link rel="icon" href="assets/mizan-logo.png" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="topbar">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="./" aria-label="Mizan home">
-        <img src="assets/mizan-logo.png" alt="شعار ميزان" />
-        <span>ميزان | Mizan</span>
+      <a class="brand" href="./" aria-label="الرئيسية - ميزان">
+        <img class="brand-logo" src="assets/mizan-logo.png" alt="" />
+        <div class="brand-copy">
+          <strong>ميزان</strong>
+          <span>Mizan · Personal Finance</span>
+        </div>
       </a>
-      <nav class="navlinks">
+
+      <nav class="navlinks" aria-label="التنقل الرئيسي">
+        <a href="#experience">التجربة</a>
         <a href="#features">المزايا</a>
+        <a href="#privacy">الخصوصية</a>
         <a href="privacy-policy/">سياسة الخصوصية</a>
-        <a href="mailto:acc.mahmoudgharib@gmail.com">تواصل</a>
       </nav>
+
+      <a class="nav-cta" href="mailto:acc.mahmoudgharib@gmail.com">تواصل</a>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="experience">
       <div class="shell hero-grid">
-        <div>
-          <span class="kicker">توازن في كل قرار</span>
-          <h1>ميزان لإدارة أموالك بصورة أوضح.</h1>
-          <p class="lead">تطبيق شخصي لإدارة الحسابات والمعاملات والدخل والمصروفات والتحويلات والتقارير والنسخ الاحتياطي، مع دعم العملات المتعددة وGoogle Drive بشكل اختياري.</p>
-          <div class="ctas">
-            <a class="btn primary" href="privacy-policy/">سياسة الخصوصية</a>
-            <a class="btn secondary" href="mailto:acc.mahmoudgharib@gmail.com">الدعم والتواصل</a>
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            تجربة مالية شخصية بهوية عربية
+          </div>
+
+          <h1>
+            أموالك أوضح.<br />
+            قراراتك <span>أكثر اتزانًا.</span>
+          </h1>
+
+          <p class="hero-lead">
+            ميزان يجمع حساباتك ومعاملاتك وتقاريرك في تجربة هادئة وواضحة،
+            مع دعم العملات المتعددة ونسخ احتياطي اختياري إلى Google Drive.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#features">
+              <span>استكشف ميزان</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="privacy-policy/">
+              سياسة الخصوصية
+            </a>
+          </div>
+
+          <div class="trust-row" aria-label="مميزات أساسية">
+            <span><i></i> Local-first</span>
+            <span><i></i> Multi-currency</span>
+            <span><i></i> Google Drive اختياري</span>
           </div>
         </div>
-        <div class="hero-card" aria-label="Mizan brand">
-          <img class="logo-large" src="assets/mizan-logo.png" alt="شعار تطبيق ميزان" />
-          <img class="wordmark" src="assets/mizan-wordmark.png" alt="ميزان" />
-          <p>إدارة مالية شخصية بهوية عربية واضحة، ونسخ احتياطي اختياري إلى Google Drive.</p>
+
+        <div class="product-stage" aria-label="معاينة واجهة ميزان">
+          <div class="stage-glow"></div>
+
+          <div class="app-window">
+            <div class="app-topline">
+              <div class="app-brand-mini">
+                <img src="assets/mizan-logo.png" alt="" />
+                <div>
+                  <strong>مساء الخير</strong>
+                  <span>نظرة سريعة على أموالك</span>
+                </div>
+              </div>
+              <span class="status-pill">محدّث الآن</span>
+            </div>
+
+            <div class="balance-panel">
+              <div class="balance-label">
+                <span class="wallet-icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 7.5h14a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h11v3.5"/>
+                    <path d="M16 12h4v4h-4a2 2 0 0 1 0-4Z"/>
+                  </svg>
+                </span>
+                صافي الرصيد
+              </div>
+              <div class="balance-number">12,840.00 <small>SAR</small></div>
+              <div class="balance-sub">بالعملة الأساسية · ريال سعودي</div>
+              <div class="balance-line" aria-hidden="true">
+                <svg viewBox="0 0 420 78" preserveAspectRatio="none">
+                  <path class="area" d="M0 66 C40 58 48 42 86 45 S135 68 170 49 S221 16 258 30 S305 61 340 43 S378 17 420 22 L420 78 L0 78 Z"/>
+                  <path class="stroke" d="M0 66 C40 58 48 42 86 45 S135 68 170 49 S221 16 258 30 S305 61 340 43 S378 17 420 22"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="mini-metrics">
+              <div>
+                <span>الدخل</span>
+                <strong class="positive">3,500</strong>
+              </div>
+              <div>
+                <span>المصروفات</span>
+                <strong class="negative">2,550</strong>
+              </div>
+              <div>
+                <span>صافي الشهر</span>
+                <strong>950</strong>
+              </div>
+            </div>
+
+            <div class="insight-card">
+              <div class="insight-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19V9M10 19V5M16 19v-7M22 19V3"/>
+                </svg>
+              </div>
+              <div>
+                <span>مؤشر الشهر</span>
+                <strong>رؤية أسرع للحركة المالية</strong>
+              </div>
+              <div class="spark-bars" aria-hidden="true">
+                <i style="height:30%"></i><i style="height:55%"></i><i style="height:42%"></i><i style="height:76%"></i><i style="height:64%"></i><i style="height:92%"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-card float-one">
+            <span class="float-icon">↔</span>
+            <div><small>تحويلات</small><strong>بين حساباتك بسهولة</strong></div>
+          </div>
+
+          <div class="float-card float-two">
+            <span class="float-icon">◎</span>
+            <div><small>خصوصية</small><strong>بياناتك على جهازك أولًا</strong></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="features">
+    <section class="stats-strip">
+      <div class="shell stats-grid">
+        <div class="stat-item">
+          <span>01</span>
+          <div><strong>Local-first</strong><small>البيانات المالية تبقى محليًا افتراضيًا</small></div>
+        </div>
+        <div class="stat-item">
+          <span>02</span>
+          <div><strong>مرن مع العملات</strong><small>حسابات ومعاملات متعددة العملات</small></div>
+        </div>
+        <div class="stat-item">
+          <span>03</span>
+          <div><strong>نسخ احتياطي اختياري</strong><small>محلي أو عبر Google Drive</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-features" id="features">
       <div class="shell">
-        <h2>ماذا يقدم ميزان؟</h2>
-        <p class="lead">مصمم ليجمع أهم احتياجات الإدارة المالية الشخصية في مكان واحد بدون تعقيد.</p>
-        <div class="grid-3">
-          <article class="card">
-            <div class="icon">01</div>
-            <h3>الحسابات والمعاملات</h3>
-            <p>متابعة الحسابات النقدية والبنكية، الدخل، المصروفات، التحويلات، الرصيد الافتتاحي، والعملات المختلفة.</p>
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">مصمم ليبسط التفاصيل</span>
+            <h2>كل ما تحتاجه، بدون ازدحام.</h2>
+          </div>
+          <p>
+            ميزان لا يحاول أن يكون نظامًا محاسبيًا معقدًا. الفكرة أن ترى وضعك المالي،
+            تسجل الحركة بسرعة، وترجع للتفاصيل عندما تحتاجها.
+          </p>
+        </div>
+
+        <div class="bento">
+          <article class="feature-card feature-card-wide dark-card">
+            <div class="feature-top">
+              <span class="feature-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="3"/>
+                  <path d="M3 9h18M7 15h4"/>
+                </svg>
+              </span>
+              <span class="feature-number">01</span>
+            </div>
+            <div class="feature-copy">
+              <h3>كل حساباتك في صورة واحدة</h3>
+              <p>نقدي، بنكي، محفظة أو غيرها — مع رصيد افتتاحي وعملة مستقلة لكل حساب.</p>
+            </div>
+            <div class="account-stack" aria-hidden="true">
+              <div class="account-chip">
+                <span>بنك الرياض</span><strong>8,420 SAR</strong>
+              </div>
+              <div class="account-chip">
+                <span>المحفظة</span><strong>1,360 SAR</strong>
+              </div>
+              <div class="account-chip">
+                <span>USD Account</span><strong>816 USD</strong>
+              </div>
+            </div>
           </article>
-          <article class="card">
-            <div class="icon">02</div>
-            <h3>تقارير ورؤية مالية</h3>
-            <p>عرض صافي الرصيد ومؤشرات الشهر وتقارير تساعدك على فهم حركة أموالك بصورة أسرع.</p>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon gold-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19V9M10 19V5M16 19v-7M22 19V3"/>
+                </svg>
+              </span>
+              <span class="feature-number">02</span>
+            </div>
+            <div class="feature-copy">
+              <h3>تقارير تقرأها بسرعة</h3>
+              <p>دخل، مصروفات، صافي، ومقارنات زمنية تساعدك على رؤية الاتجاه بدل مطاردة الأرقام.</p>
+            </div>
+            <div class="report-mini" aria-hidden="true">
+              <div><span>الدخل</span><b>3.5K</b><i class="up"></i></div>
+              <div><span>المصروف</span><b>2.55K</b><i class="down"></i></div>
+            </div>
           </article>
-          <article class="card">
-            <div class="icon">03</div>
-            <h3>نسخ احتياطي اختياري</h3>
-            <p>نسخ احتياطي محلي داخل مساحة التطبيق، مع خيار ربط Google Drive عند رغبتك لإتاحة النسخ والاستعادة.</p>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon green-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v12M7 10l5 5 5-5"/>
+                  <path d="M5 21h14a2 2 0 0 0 2-2v-2M3 17v2a2 2 0 0 0 2 2"/>
+                </svg>
+              </span>
+              <span class="feature-number">03</span>
+            </div>
+            <div class="feature-copy">
+              <h3>نسخ احتياطي تحت سيطرتك</h3>
+              <p>احفظ نسخة محلية، أو اربط Google Drive عندما تريد. الربط السحابي اختياري وليس شرطًا لاستخدام ميزان.</p>
+            </div>
+            <div class="backup-ui" aria-hidden="true">
+              <span class="cloud-dot"></span>
+              <div><small>Google Drive</small><strong>متصل عند اختيارك</strong></div>
+              <span class="backup-check">✓</span>
+            </div>
+          </article>
+
+          <article class="feature-card feature-card-wide privacy-card" id="privacy">
+            <div class="privacy-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5.2 3.4 8.7 8 10 4.6-1.3 8-4.8 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="privacy-copy">
+              <span class="section-kicker">الخصوصية ليست إضافة جانبية</span>
+              <h3>بياناتك المالية تبدأ من جهازك.</h3>
+              <p>
+                ميزان يعمل بأسلوب Local-first. لا يتم إرسال بياناتك إلى Google Drive إلا إذا اخترت أنت ربط حساب Google واستخدام النسخ الاحتياطي السحابي.
+              </p>
+              <a class="inline-link" href="privacy-policy/">
+                اقرأ سياسة الخصوصية
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section final-cta-section">
       <div class="shell">
-        <div class="notice">
-          <strong>خصوصيتك أولًا:</strong>
-          ميزان تطبيق Local-first. تبقى بياناتك المالية على جهازك افتراضيًا، ولا يتم إرسال نسخة إلى Google Drive إلا عندما تختار ربط حساب Google واستخدام ميزة النسخ الاحتياطي السحابي.
+        <div class="final-cta">
+          <div class="final-cta-logo">
+            <img src="assets/mizan-logo.png" alt="شعار ميزان" />
+          </div>
+          <div>
+            <span class="section-kicker">ميزان · Mizan</span>
+            <h2>توازن مالي يبدأ بصورة أوضح.</h2>
+            <p>تطبيق شخصي مصمم ليجعل متابعة أموالك أبسط، أهدأ، وأكثر وضوحًا.</p>
+          </div>
+          <a class="btn btn-light" href="mailto:acc.mahmoudgharib@gmail.com">الدعم والتواصل</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="shell footer-grid">
-      <div>© 2026 Mizan. جميع الحقوق محفوظة.</div>
-      <div class="small">الدعم: <a href="mailto:acc.mahmoudgharib@gmail.com">acc.mahmoudgharib@gmail.com</a></div>
+      <div class="footer-brand">
+        <img src="assets/mizan-logo.png" alt="" />
+        <div><strong>ميزان</strong><span>© 2026 جميع الحقوق محفوظة.</span></div>
+      </div>
+      <div class="footer-links">
+        <a href="#features">المزايا</a>
+        <a href="privacy-policy/">سياسة الخصوصية</a>
+        <a href="mailto:acc.mahmoudgharib@gmail.com">acc.mahmoudgharib@gmail.com</a>
+      </div>
     </div>
   </footer>
 </body>
